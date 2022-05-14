@@ -1,0 +1,38 @@
+const { MessageActionRow, MessageSelectMenu, MessageButton, MessageEmbed, MessageAttachment } = require('discord.js');
+const { stripIndents, oneLine } = require('common-tags');
+
+module.exports = {    
+  name: "", 
+  category: "", // must match with folder name
+  description: "", 
+  aliases: [],
+  guildOnly: true,
+  devsOnly: false,
+  userPermissions: [], 
+  clientPermissions: [], 
+  details: [],
+  cooldown: 5, // seconds
+  usage: [], // if args is true then this param required
+  argsRequired: true,
+
+  async run (client, message, args) {
+    try
+    {
+
+
+
+
+
+
+
+
+
+//=================
+    }
+    catch(e)
+    {
+      print(e)
+    }      
+//=================
+  }
+}
